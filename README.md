@@ -24,8 +24,5 @@ Este proyecto utiliza la metodología **LM-GM (Learning Mechanics - Game Mechani
 Para ejecutar este proyecto en tu entorno local, necesitas tener instalado:
 * [Node.js](https://nodejs.org/) (incluye npm)
 
-## 💻 Instalación y Ejecución
 
-1. **Clona este repositorio:**
-   ```bash
-   git clone [https://github.com/TU_USUARIO/vivero-virtual.git](https://github.com/TU_USUARIO/vivero-virtual.git)
+  
