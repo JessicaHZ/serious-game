@@ -1,0 +1,14 @@
+# Dependencias de Node
+node_modules/
+
+# Archivos de log
+npm-debug.log
+yarn-error.log
+
+# Archivos del sistema operativo (opcional, pero buena práctica)
+.DS_Store
+Thumbs.db
+
+# Si luego generas ejecutables de Electron, ignorar la carpeta de salida
+out/
+dist/

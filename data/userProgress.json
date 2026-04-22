@@ -1,0 +1,74 @@
+{
+  "user": {
+    "username": "Jardinero",
+    "level": 2,
+    "xp": 15,
+    "xpForNext": 120,
+    "dailyPoints": 50,
+    "lastDailyReset": "Tue Apr 21 2026",
+    "dailyStreak": 0,
+    "achievements": []
+  },
+  "catalog": [
+    {
+      "id": 1,
+      "name": "Lirio de los Valles",
+      "light": "Sombra parcial",
+      "difficulty": "Baja",
+      "waterNeeds": "Moderado",
+      "icon": "🌸",
+      "unlocked": true
+    },
+    {
+      "id": 2,
+      "name": "Suculenta Echeveria",
+      "light": "Luz brillante",
+      "difficulty": "Baja",
+      "waterNeeds": "Bajo",
+      "icon": "🌵",
+      "unlocked": true
+    },
+    {
+      "id": 3,
+      "name": "Helecho Nido",
+      "light": "Sombra",
+      "difficulty": "Media",
+      "waterNeeds": "Alto",
+      "icon": "🌿",
+      "unlocked": false,
+      "unlockLevel": 3
+    },
+    {
+      "id": 4,
+      "name": "Monstera",
+      "light": "Luz indirecta",
+      "difficulty": "Media",
+      "waterNeeds": "Moderado",
+      "icon": "🍃",
+      "unlocked": false,
+      "unlockLevel": 3
+    }
+  ],
+  "plants": [
+    {
+      "id": 1,
+      "name": "Lirio de los Valles",
+      "type": "baja",
+      "health": 100,
+      "water": 100,
+      "lastWatered": 1776603873412,
+      "lastFertilized": 1776588432311,
+      "state": "normal"
+    },
+    {
+      "id": 2,
+      "name": "Suculenta Echeveria",
+      "type": "baja",
+      "health": 95,
+      "water": 100,
+      "lastWatered": 1776835076477,
+      "lastFertilized": 1776835071893,
+      "state": "normal"
+    }
+  ]
+}

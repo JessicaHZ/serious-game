@@ -1,0 +1,124 @@
+{
+  "usuarios": [
+    {
+      "id_usuario": 1,
+      "nombre_usuario": "jess",
+      "correo": "abcd",
+      "contraseña": "1234",
+      "nivel": 1,
+      "experiencia": 0,
+      "puntos_diarios": 0,
+      "fecha_ultimo_reinicio": "2026-04-19",
+      "racha_dias": 0,
+      "misPlantas": [],
+      "misLogros": []
+    },
+    {
+      "id_usuario": 2,
+      "nombre_usuario": "jessi",
+      "correo": "abcde",
+      "contraseña": "12345",
+      "nivel": 1,
+      "experiencia": 0,
+      "puntos_diarios": 0,
+      "fecha_ultimo_reinicio": "2026-04-19",
+      "racha_dias": 0,
+      "misPlantas": [],
+      "misLogros": []
+    }
+  ],
+  "plantas": [
+    {
+      "id_planta": 1,
+      "nombre_planta": "Lirio de los Valles",
+      "tipo_luz": "Sombra parcial",
+      "frecuencia_riego": "Moderado",
+      "nivel_dificultad": "Baja",
+      "descripcion": "Floración primaveral, tóxica si se ingiere."
+    },
+    {
+      "id_planta": 2,
+      "nombre_planta": "Suculenta Echeveria",
+      "tipo_luz": "Luz brillante",
+      "frecuencia_riego": "Bajo",
+      "nivel_dificultad": "Baja",
+      "descripcion": "Resistente, almacena agua."
+    },
+    {
+      "id_planta": 3,
+      "nombre_planta": "Helecho Nido",
+      "tipo_luz": "Sombra",
+      "frecuencia_riego": "Alto",
+      "nivel_dificultad": "Media",
+      "descripcion": "Necesita humedad constante."
+    },
+    {
+      "id_planta": 4,
+      "nombre_planta": "Monstera",
+      "tipo_luz": "Luz indirecta",
+      "frecuencia_riego": "Moderado",
+      "nivel_dificultad": "Media",
+      "descripcion": "Hojas grandes y agujereadas."
+    }
+  ],
+  "planta_usuario": [
+    {
+      "id_registro": 1776586544557,
+      "id_usuario": 1,
+      "id_planta": 1,
+      "estado_planta": "sana",
+      "ubicacion": "sala",
+      "humedad": 60,
+      "salud": 80,
+      "tamaño_maceta": 1,
+      "tipo_sustrato": "universal",
+      "ultimo_riego": 1776586544557,
+      "ultimo_abono": 0,
+      "ultima_actualizacion": 1776586544557
+    },
+    {
+      "id_registro": 1776586559791,
+      "id_usuario": 1,
+      "id_planta": 2,
+      "estado_planta": "sana",
+      "ubicacion": "sala",
+      "humedad": 60,
+      "salud": 80,
+      "tamaño_maceta": 1,
+      "tipo_sustrato": "universal",
+      "ultimo_riego": 1776586559791,
+      "ultimo_abono": 0,
+      "ultima_actualizacion": 1776586559791
+    },
+    {
+      "id_registro": 1776587397586,
+      "id_usuario": 2,
+      "id_planta": 1,
+      "estado_planta": "sana",
+      "ubicacion": "sala",
+      "humedad": 60,
+      "salud": 80,
+      "tamaño_maceta": 1,
+      "tipo_sustrato": "universal",
+      "ultimo_riego": 1776587397586,
+      "ultimo_abono": 0,
+      "ultima_actualizacion": 1776587397586
+    },
+    {
+      "id_registro": 1776587398986,
+      "id_usuario": 2,
+      "id_planta": 2,
+      "estado_planta": "sana",
+      "ubicacion": "sala",
+      "humedad": 60,
+      "salud": 80,
+      "tamaño_maceta": 1,
+      "tipo_sustrato": "universal",
+      "ultimo_riego": 1776587398986,
+      "ultimo_abono": 0,
+      "ultima_actualizacion": 1776587398986
+    }
+  ],
+  "estadisticas": [],
+  "logros": []
+}

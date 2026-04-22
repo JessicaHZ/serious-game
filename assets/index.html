@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vivero Virtual - Cozy Plant Care</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="game-container">
+    <!-- Encabezado con Damaris -->
+    <div class="damaris-header">
+      <img src="images/damaris.png" alt="Damaris" class="damaris-avatar" onerror="this.src='https://via.placeholder.com/64?text=🌱'">
+      <div class="damaris-message">¡Hola! Soy Damaris, ¿qué planta te gustaría cuidar hoy?</div>
+    </div>
+
+    <!-- Barra superior de progreso -->
+    <header class="game-header">
+      <div class="user-info">
+        <span id="username">Jardinero</span>
+        <div class="level-badge">Nv. <span id="level">1</span></div>
+      </div>
+      <div class="xp-bar-container">
+        <div class="xp-bar" id="xpBar" style="width:0%"></div>
+        <span id="xpText">0 / 100 XP</span>
+      </div>
+      <div class="daily-info">
+        🌟 Racha: <span id="streak">0</span> | 📅 <span id="dailyPoints">0</span>/50 XP hoy
+        <button id="acelerarBtn" class="acelerar-btn">⏩ Acelerar (8h)</button>
+      </div>
+    </header>
+
+    <!-- Navegación -->
+    <nav class="game-nav">
+      <button id="navVivero" class="nav-btn active">🌱 Vivero</button>
+      <button id="navCasa" class="nav-btn">🏠 Mi Casa</button>
+      <button id="navMinijuegos" class="nav-btn">🎮 Minijuegos</button>
+      <button id="navLogros" class="nav-btn">🏆 Logros</button>
+    </nav>
+
+    <!-- PANEL VIVERO -->
+    <section id="viveroPanel" class="game-panel">
+      <h2>🌿 Catálogo de Plantas</h2>
+      <div class="plant-catalog" id="plantCatalog"></div>
+      <div class="message-area" id="viveroMessage"></div>
+    </section>
+
+    <!-- PANEL CASA -->
+    <section id="casaPanel" class="game-panel hidden">
+      <h2>🏡 Mi Jardín Interior</h2>
+      <div class="rooms-container">
+        <div class="room" data-room="sala">🛋️ Sala (Luz media)</div>
+        <div class="room" data-room="cocina">🍳 Cocina (Luz baja)</div>
+        <div class="room" data-room="jardin">🌞 Jardín (Luz alta)</div>
+      </div>
+      <div class="plants-grid" id="plantsGrid"></div>
+      <div class="plant-actions" id="plantActions" style="display:none;">
+        <h3>Cuidados: <span id="selectedPlantName"></span></h3>
+        <button class="action-btn" data-action="water">💧 Regar</button>
+        <button class="action-btn" data-action="fertilize">🌱 Abonar</button>
+        <button class="action-btn" data-action="prune">✂️ Podar (minijuego)</button>
+        <button class="action-btn" data-action="repot">🪴 Cambiar maceta</button>
+      </div>
+      <div class="message-area" id="casaMessage"></div>
+    </section>
+
+    <!-- PANEL MINIJUEGOS -->
+    <section id="minijuegosPanel" class="game-panel hidden">
+      <h2>🎮 Aprende Jugando</h2>
+      <div class="minigame-selector">
+        <button id="gamePrune" class="minigame-btn">✂️ Poda de precisión</button>
+        <button id="gamePests" class="minigame-btn">🐛 Identifica plagas</button>
+        <button id="gameQuiz" class="minigame-btn">❓ Quiz botánico</button>
+      </div>
+      <div id="minigameArea" class="minigame-area">
+        <p>Selecciona un minijuego para empezar</p>
+      </div>
+    </section>
+
+    <!-- PANEL LOGROS -->
+    <section id="logrosPanel" class="game-panel hidden">
+      <h2>🏆 Logros Desbloqueados</h2>
+      <div id="achievementsList" class="achievements-grid"></div>
+    </section>
+  </div>
+
+  <script src="js/gameState.js"></script>
+  <script src="js/plantCare.js"></script>
+  <script src="js/minigames.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/simulacion.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
